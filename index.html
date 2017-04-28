@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+   <link href="https://fonts.googleapis.com/css?family=PT+Sans+Narrow:400,700" rel="stylesheet">
+   <link rel="stylesheet" href="css/magnific-popup.css">
+   <link href="css/jquery.bxslider.css" rel="stylesheet" />
+   <link rel="stylesheet" href="css/style.css">
+   <link rel="stylesheet" href="css/media.css">
+   <title>Barbershop "Borodinskiy"</title>
+</head>
+<body>
+   <div class="wrapper">
+
+<!-- Login popup -->
+      <div class="hidden">
+         <form id="popup__form">
+            <h2 class="box-title">Личный кабинет</h2>
+            <p>
+               ВВедите пожалуйста свой логин и пароль <br/>
+               Если вы забыли пароль
+            </p>
+            <input type="text" name="login" placeholder="Логин" required>
+            <input type="text" name="pass" placeholder="Пароль" required>
+
+            <div class="remember"><a href="#">Запомните меня</a></div>
+            <div class="forgot-pass"><a href="#">Я забыл пароль</a></div>
+
+            <input type="submit" class="button-inverse" value="Войти">
+         </form>
+      </div>
+<!-- Login popup END-->
+
+<!-- Map popup -->
+      <div class="hidden">
+         <div class="google-map" id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1998.59910436516!2d30.320894616202718!3d59.93879418187623!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x4696310fca5ba729%3A0xea9c53d4493c879f!2z0JHQvtC70YzRiNCw0Y8g0JrQvtC90Y7RiNC10L3QvdCw0Y8g0YPQuy4sIDE5LCDQodCw0L3QutGCLdCf0LXRgtC10YDQsdGD0YDQsywg0KDQvtGB0YHQuNGPLCAxOTExODY!5e0!3m2!1sru!2sua!4v1493324025979" width="100%" height="578" frameborder="" style="border:" allowfullscreen></iframe>
+         </div>
+      </div>
+<!-- Map popup END-->
+
+      <header>
+         <div class="top-line__wrap">
+            <div class="top-line clearfix">
+               <nav>
+                  <div class="handle">MENU</div>
+                  <ul class="navigation">
+                     <li><a href="#">Главная</a></li>
+                     <li><a href="#">Информация</a></li>
+                     <li><a href="#">Новости</a></li>
+                     <li><a href="#">Прайс-лист</a></li>
+                     <li><a href="#">Магазин</a></li>
+                     <li><a href="#">Контакты</a></li>
+                  </ul>
+               </nav>
+
+               <a href="#popup__form" class="login"><span>Вход</span></a>
+
+            </div>
+         </div>
+      </header>
+
+      <section class="logo-box">
+         <a href="#"><img src="img/logo.png" alt="logo"></a>
+      </section>
+
+      <section class="advantages clearfix">
+
+         <div class="advantage-item">
+            <span class="advantage-item__title">Быстро</span>
+            <img src="img/square.png" alt="square">
+            <p class="advantage-item__descr">
+               МЫ ДЕЛАЕМ СВОЮ РАБОТУ БЫСТРО! ДВА ЧАСА ПРОЛЕТЯТ НЕЗАМЕТНО И ВЫ — СЧАСТЛИВЫЙ ОБЛАДЕТЕЛЬ СТИЛЬНОЙ СТРИЖКИ-МИНУТКИ!
+            </p>
+         </div>
+
+         <div class="advantage-item">
+            <span class="advantage-item__title">Круто</span>
+            <img src="img/square.png" alt="square">
+            <p class="advantage-item__descr">
+               ЗАБ УДЬТЕ, КАК ВЫ СТРИГЛИСЬ РАНЬШЕ. <br/> МЫ СДЕЛАЕМ ИЗ ВАС ЗВЕЗДУ ФУТБОЛА ИЛИ КИНО! ВО ВСЯКОМ СЛУЧАЕ ВНЕШНЕ.
+            </p>
+         </div>
+
+         <div class="advantage-item">
+            <span class="advantage-item__title">Дорого</span>
+            <img src="img/square.png" alt="square">
+            <p class="advantage-item__descr">
+               НАШИ МАСТЕРА — ПРОФЕССИОНАЛЫ СВОЕГО ДЕЛА И НЕ МОГУТ СТОИТЬ ДЕШЕВО. К ТОМУ ЖЕ, РАЗВЕ ЦЕНА НЕ ДАЕТ ОПРЕДЕЛЕНЫЙ СТАТУС?
+            </p>
+         </div>
+
+      </section>
+
+      <section class="backgrounded">
+         <div class="backgrounded__inner clearfix">
+
+            <div class="content-left__section">
+               <h2 class="box-title">Новости</h2>
+
+               <div class="news__item">
+                  <p class="news__content">
+                     НАМ НАКОНЕЦ ЗАВЕЗЛИ ЯГЕРМАЙСТЕР! ТЕПЕРЬ ВЫ <br/> МОЖЕТЕ ПРОПУСТИТЬ СТАКАНЧИК ВО ВРЕМЯ СТРИЖКИ
+                  </p>
+                  <span class="news__date">25 сентября</span>
+               </div>
+
+               <div class="news__item">
+                  <p class="news__content">
+                     В НАШЕЙ КОМАНДЕ ПОПОЛНЕНИЕ, БОРИС «БРИТВА» СТРИГУНЕЦ, ОБЛАДЕТЕЛЬ МНОЖЕТСВА ТИТУЛОВ И НАГРАД ПОПОЛНИЛ НАШИ СТРОЙНЫЕ РЯДЫ
+                  </p>
+                  <span class="news__date">19 сентября</span>
+               </div>
+
+               <a href="#" class="button-inverse news__link">Все новости</a>
+
+            </div>
+
+            <div class="content-right__section">
+               <h2 class="box-title">Фотогалерея</h2>
+
+               <div class="gallery__content">
+                  <ul class="bxslider">
+                    <li><img src="img/photo.jpg" /></li>
+                    <li><img src="img/photo.jpg" /></li>
+                    <li><img src="img/photo.jpg" /></li>
+                  </ul>
+
+                  <div class="outside clearfix">
+                     <p><span id="slider-prev"></span><span id="slider-next"></span></p>
+                  </div>
+               </div>
+            </div>
+
+         </div>
+      </section>
+
+      <section class="separator"></section>
+
+      <section class="backgrounded">
+         <div class="backgrounded__inner clearfix">
+
+            <div class="content-left__section">
+               <h2 class="box-title">Контактная информация</h2>
+
+               <div class="adress">
+                  БАРБЕРШОП «БОРОДИНСКИЙ»<br/>
+                  АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, Б. КОНЮШЕННАЯ, Д. 19/8 <br/>
+                  ТЕЛЕФОН: +7 (495) 666-02-66 <br/>
+               </div>
+
+               <div class="worktime">
+                  ВРЕМЯ РАБОТЫ: <br/>
+                  ПН — ПТ: С 10:00 ДО 22:00 <br/>
+                  СБ — ВС: С 10:00 ДО 19:00 <br/>
+               </div>
+
+               <a href="#map" class="button-inverse map-link">Как проехать</a>
+               <a href="#" class="button-inverse feedback-link">Обратная связь</a>
+            </div>
+
+            <div class="content-right__section">
+               <h2 class="box-title">Записаться</h2>
+
+               <div class="sign-up__content">
+                  УКАЖИТЕ ЖЕЛАЕМУЮ ДАТУ И ВРЕМЯ И МЫ СВЯЖЕМСЯ С ВАМИ ДЛЯ ПОДТВЕРЖДЕНИЯ БРОНИ
+               </div>
+
+               <form id="form">
+                  <input type="date" name="date" placeholder="Дата" required>
+                  <input type="time" name="time" placeholder="Время" required><br/>
+                  <input type="text" name="name" placeholder="Имя" required>
+                  <input type="number" name="phone" placeholder="Телефон" required><br/>
+
+                  <input type="submit" class="button-inverse" value="Отправить">
+               </form>
+
+            </div>
+
+         </div>
+      </section>
+
+      <footer>
+         <div class="footer__inner clearfix">
+
+            <div class="footer__contacts">
+               <span>Барбершоп «БОРОДИНСКИЙ»</span><br/>
+               <span>АДРЕС: Г. САНКТ-ПЕТЕРБУРГ, УЛ. Б. КОНЮШЕННАЯ, Д. 19/8</span><br/>
+               <a href="#map" class="footer__map-link">Как нас найти?</a><br/>
+               <span>ТЕЛЕФОН: +7 (495) 666-02-66</span>
+            </div>
+
+            <div class="socials">
+               <p>Давайте дружить !</p>
+               <a class="vk" href="#"></a>
+               <a class="fb" href="#"></a>
+               <a class="insta" href="#"></a>
+            </div>
+
+            <div class="developed">
+               <div class="developed__inner">
+                  <p>Разработано:</p>
+                  <a href="#">HTMLACADEMY.RU</a>
+               </div>
+            </div>
+
+         </div>
+      </footer>
+
+   </div>
+<script src="js/jquery.bxslider.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>
